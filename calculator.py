@@ -6,9 +6,9 @@ while run_main > 0:
   exp = input("Exponent: ")
   print("Calculating...")
   ans = float(inte) ** float(exp)
-  ("********************")
+  print("********************")
   print("Answer is: " + str(ans))
-  ("********************")
+  print("********************")
   run = input("Would you like to run this again? 1 = yes, 2 = no. ")
   runn = int(run)
   if runn == 2:
