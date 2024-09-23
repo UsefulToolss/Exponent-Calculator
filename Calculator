@@ -1,0 +1,7 @@
+print("Welcome to the exponent calculator!")
+print("Your first number will be the intenger and the second will be your exponent.")
+inte = input("Integer: ")
+exp = input("Exponent: ")
+print("Calculating...")
+ans = float(inte) ** float(exp)
+print("Answer is: " + str(ans))
